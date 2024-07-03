@@ -1,0 +1,54 @@
+.TextHolder {
+  display: grid;
+  justify-content: center;
+  margin-top: 600px;
+  /* background-color: rgb(133, 56, 56); */
+  height: 200px;
+}
+
+.TextHolderLast {
+  justify-content: center;
+  margin-top: 600px;
+  margin-bottom: 400px;
+  height: auto;
+}
+.TextSecondS {
+  display: flex;
+  justify-content: center;
+  color: #1e1e1e;
+  font-weight: 700;
+  z-index: 2;
+  font-size: 64px;
+  /* background-color: red; */
+  padding: 0px;
+  margin: 0px;
+}
+
+.ChildTextHolder2 {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: 96px;
+  color: white;
+  background-color: red;
+  line-height: 85%;
+  z-index: 100;
+}
+
+.ChildText2nd {
+  display: inline-block;
+}
+
+.ChildText2Holder2nd {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ChildText22nd {
+  display: inline-block;
+}

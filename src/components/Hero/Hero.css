@@ -1,0 +1,92 @@
+.MainHeroHolder {
+  height: 100vh;
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
+.LightHolder {
+  /* background-color: green; */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  /* z-index: -1; */
+}
+
+.HeroHolder {
+  height: 1144px;
+  overflow: hidden;
+}
+
+.Holders {
+}
+
+.LeftFront,
+.LeftBack,
+.RightFront,
+.RightBack {
+  height: 100vh;
+  /* background-color: blue; */
+  width: 100vw;
+  position: absolute;
+  inset: 0;
+}
+
+.TitleHolder {
+}
+
+.NameHolder {
+  display: flex;
+  justify-content: center;
+}
+.Name {
+  position: absolute;
+  top: 0px;
+  color: white;
+  font-size: 36px;
+}
+
+.FEDHolder {
+  display: flex;
+  justify-content: center;
+}
+.FED {
+  position: absolute;
+  top: 0px;
+  color: white;
+  font-size: 96px;
+  z-index: 80;
+}
+
+.Light {
+  /* position: absolute; */
+  top: -80px;
+  display: flex;
+  justify-content: center;
+}
+
+.ChildTextHolderHero {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: 96px;
+  color: rgb(255, 0, 0);
+  line-height: 85%;
+}
+
+.ChildTextHero {
+  display: inline-block;
+}
+
+.ChildText2HolderHero {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ChildText2Hero {
+  display: inline-block;
+}

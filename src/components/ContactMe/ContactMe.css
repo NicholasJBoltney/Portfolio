@@ -1,0 +1,56 @@
+.MainHolderContact {
+  background-color: #1e1e1e;
+  height: 1000px;
+}
+
+.HeadingHolderContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  background-color: white;
+  height: 2px;
+  width: 190px;
+}
+.HeadingContact {
+  font-size: 96px;
+  color: white;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.LogoHolderMain {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.ContactsHolder {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  row-gap: 24px;
+  width: 640px;
+  margin: auto;
+  /* height: 320px; */
+}
+
+.InfoHolder {
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.svgElementContact {
+  width: 40px;
+  margin-right: 24px;
+}
+
+.ContactText {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  align-self: center;
+}

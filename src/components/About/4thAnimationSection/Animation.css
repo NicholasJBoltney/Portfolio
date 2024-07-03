@@ -1,0 +1,35 @@
+.MainHolderAnimation {
+  background-color: #4f5d72;
+  height: 2000px;
+}
+
+.AnimationTextHolder {
+  background-color: #4f5d72;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 1600px;
+  overflow: hidden;
+}
+.AnimationText {
+  /* width: auto; */
+  color: #1e1e1e;
+  font-size: 96px;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 10px; */
+}
+
+.PlanesHolder {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.PlanesHolder img {
+  width: 100px;
+}
+
+.FinalPlane {
+  width: 120px !important;
+}

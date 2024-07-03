@@ -1,0 +1,118 @@
+.MainHolderSkills {
+  background-color: #1e1e1e;
+  height: 1000px;
+}
+
+.ChildTextHolderSkills {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: 96px;
+  color: white;
+  margin-left: 48px;
+  margin-right: 48px;
+  line-height: 85%;
+}
+
+.ChildTextSkills {
+  display: inline-block;
+}
+
+.ChildText2HolderSkills {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ChildText2 {
+  display: inline-block;
+}
+
+.HeadingHolder {
+  display: flex;
+  justify-content: center;
+  /* background-color: #8d2121; */
+  height: 160px;
+  margin-bottom: 80px;
+}
+
+.lineHolder {
+  background-color: rgb(133, 63, 63);
+  height: 20px;
+  width: 190px;
+  /* overflow: hidden; */
+}
+.line {
+  background-color: white;
+  height: 2px;
+  width: 190px;
+}
+.Heading {
+  font-size: 96px;
+  color: white;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.LogoHolderMain {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.LogoHolder {
+  display: flex;
+  justify-content: center;
+  column-gap: 80px;
+  flex-wrap: wrap;
+  width: 640px;
+  /* background-color: #1e1e1e; */
+}
+
+.svgElement {
+  width: 56px;
+}
+
+.CardHolderMain {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.CardHolder {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 0px;
+  /* background-color: #44acac; */
+  width: 1000px;
+}
+
+.SkillsCard {
+  margin-top: 160px;
+  background-color: #394343;
+  box-shadow: 0px 16px #2b3030;
+  border-radius: 16px 16px 0px 0px;
+  width: 280px;
+  height: 320px;
+}
+
+.SkillCardHeading {
+  color: #4a93ff;
+  display: flex;
+  justify-content: center;
+}
+
+.LanguagesHolder {
+  display: grid;
+}
+
+.LanguagesHolder p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 4px;
+}

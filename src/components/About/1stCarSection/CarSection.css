@@ -1,0 +1,18 @@
+.CarHolder {
+  /* scale: 3; */
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  left: -1600px;
+}
+
+.Smoke {
+  width: 800px;
+}
+.Car {
+  width: 200px;
+  position: relative;
+  top: 120px;
+  right: 32px;
+}

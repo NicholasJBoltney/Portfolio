@@ -1,0 +1,28 @@
+.background {
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
+
+.MainHolder {
+  overflow: hidden;
+  padding-top: 400px;
+}
+
+.Step2 {
+  background-color: #4a93ff;
+
+  /* padding-bottom: 400px; */
+}
+
+.textHolder {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  width: 100%;
+  color: white;
+  z-index: 2;
+  font-size: 96px;
+  display: flex;
+  justify-content: center;
+}

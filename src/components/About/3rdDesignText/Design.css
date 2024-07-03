@@ -1,0 +1,46 @@
+.DesignTextHolder {
+  /* background-color: #4f5d72; */
+
+  /* margin-bottom: 1000px; */
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(#4a93ff 0%, #1e1e1e 100%);
+  padding-bottom: 400px;
+}
+.DesignTextFinal {
+  /* width: auto; */
+  color: #ffffff;
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+  /* margin: 10px; */
+}
+
+.ChildTextHolder {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: 96px;
+  color: white;
+  line-height: 85%;
+}
+
+.ChildText {
+  display: inline-block;
+}
+
+.ChildText2Holder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ChildText2 {
+  display: inline-block;
+}

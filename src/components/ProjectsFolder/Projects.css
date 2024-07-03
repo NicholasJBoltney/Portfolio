@@ -1,0 +1,62 @@
+.MainHolderProjects {
+  background-color: #1e1e1e;
+  height: 1000px;
+}
+
+.HeadingHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  background-color: white;
+  height: 2px;
+  width: 190px;
+}
+.Heading {
+  font-size: 96px;
+  color: white;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.CardHolderProjectsMain {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.CardHolderProjects {
+  row-gap: 64px;
+  /* background-color: #44acac; */
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ProjectsCard {
+  /* margin-top: 160px; */
+  background-color: #394343;
+  box-shadow: 0px 16px #2b3030;
+  border-radius: 16px 16px 0px 0px;
+  width: 640px;
+  height: 160px;
+}
+
+.ProjectsCardHeading {
+  color: #4a93ff;
+  display: flex;
+  justify-content: center;
+}
+
+.ProjectDescription {
+  display: flex;
+  justify-content: center;
+}
+
+.ProjectDescription p {
+  color: white;
+}
