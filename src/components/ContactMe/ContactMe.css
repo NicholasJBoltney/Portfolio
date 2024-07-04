@@ -32,15 +32,15 @@
   grid-template-rows: 1fr;
   justify-content: center;
   row-gap: 24px;
-  width: 640px;
+  width: 100%;
   margin: auto;
+  /* background-color: red; */
   /* height: 320px; */
 }
 
 .InfoHolder {
   display: flex;
   justify-content: center;
-  /* background-color: red; */
 }
 
 .svgElementContact {
@@ -53,4 +53,149 @@
   font-size: 16px;
   text-decoration: none;
   align-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .ChildTextHolderSkills {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 96px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* line-height: 20%; */
+    /* background-color: red; */
+  }
+  .ChildTextSkills {
+    display: inline-block;
+    font-size: 48px;
+  }
+  .ChildText2HolderSkills {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ChildText2 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  .HeadingHolder {
+    display: flex;
+    justify-content: center;
+    /* background-color: #8d2121; */
+    height: 160px;
+    margin-bottom: 80px;
+  }
+
+  .line {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 160px;
+  }
+  .svgElementContact {
+    width: 32px;
+    margin-right: 24px;
+  }
+
+  .ContactText {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .ChildTextHolderSkills {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* line-height: 20%; */
+    /* background-color: red; */
+  }
+  .ChildTextSkills {
+    display: inline-block;
+    font-size: 36px;
+  }
+  .ChildText2HolderSkills {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ChildText2 {
+    display: inline-block;
+    font-size: 36px;
+  }
+  .HeadingHolder {
+    display: flex;
+    justify-content: center;
+    /* background-color: #8d2121; */
+    height: 160px;
+    margin-bottom: 80px;
+  }
+
+  .line {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ChildTextHolderSkills {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 96px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* line-height: 20%; */
+    /* background-color: red; */
+  }
+  .ChildTextSkills {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .ChildText2HolderSkills {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ChildText2 {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .HeadingHolder {
+    display: flex;
+    justify-content: center;
+    /* background-color: #8d2121; */
+    height: 160px;
+    margin-bottom: 80px;
+  }
+
+  .line {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 80px;
+  }
 }

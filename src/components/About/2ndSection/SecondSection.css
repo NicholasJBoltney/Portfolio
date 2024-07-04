@@ -52,3 +52,73 @@
 .ChildText22nd {
   display: inline-block;
 }
+
+@media screen and (max-width: 1000px) {
+  .TextHolder {
+    display: grid;
+    justify-content: center;
+    margin-top: -100px;
+    /* background-color: rgb(133, 56, 56); */
+    height: 200px;
+  }
+  .TextSecondS {
+    display: flex;
+    justify-content: center;
+    color: #1e1e1e;
+    font-weight: 700;
+    z-index: 2;
+    font-size: 56px;
+    /* background-color: red; */
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .TextHolderLast {
+    justify-content: center;
+    margin-top: 400px;
+    margin-bottom: 160px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .TextHolder {
+    display: grid;
+    justify-content: center;
+    margin-top: -100px;
+    /* background-color: rgb(133, 56, 56); */
+    height: 200px;
+  }
+  .TextSecondS {
+    display: flex;
+    justify-content: center;
+    color: #1e1e1e;
+    font-weight: 700;
+    z-index: 2;
+    font-size: 40px;
+    /* background-color: red; */
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .TextHolder {
+    display: grid;
+    justify-content: center;
+    margin-top: -100px;
+    /* background-color: rgb(133, 56, 56); */
+    height: 200px;
+  }
+  .TextSecondS {
+    display: flex;
+    justify-content: center;
+    color: #1e1e1e;
+    font-weight: 700;
+    z-index: 2;
+    font-size: 32px;
+    /* background-color: red; */
+    padding: 0px;
+    margin: 0px;
+  }
+}

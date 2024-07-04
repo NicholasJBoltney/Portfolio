@@ -9,9 +9,10 @@ export default function Design() {
         <FlipText>DESIGN</FlipText>
         <FlipText>ANIMATION</FlipText>
         <FlipText>INTERACTIVITY</FlipText>
-        <h2 className="DesignTextFinal">
-          I am excited to contribute to your team
-        </h2>
+        <div className="EndingHolder">
+          <h2 className="DesignTextFinal">I am excited to contribute</h2>{" "}
+          <h2 className="DesignTextFinal">to your team</h2>
+        </div>
       </div>
     </div>
   );

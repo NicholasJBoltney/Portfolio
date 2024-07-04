@@ -1,11 +1,13 @@
 .MainHolderSkills {
   background-color: #1e1e1e;
-  height: 1000px;
+  /* height: 1000px; */
+  margin-bottom: 80px;
 }
 
 .ChildTextHolderSkills {
   position: relative;
-  display: grid;
+  display: flex;
+  align-items: center;
   justify-content: center;
   grid-template-rows: 1fr;
   overflow: hidden;
@@ -18,6 +20,7 @@
 }
 
 .ChildTextSkills {
+  /* background-color: blue; */
   display: inline-block;
 }
 
@@ -26,6 +29,7 @@
   inset: 0;
   display: flex;
   justify-content: center;
+  /* background-color: blue; */
 }
 
 .ChildText2 {
@@ -35,6 +39,7 @@
 .HeadingHolder {
   display: flex;
   justify-content: center;
+  align-content: center;
   /* background-color: #8d2121; */
   height: 160px;
   margin-bottom: 80px;
@@ -46,7 +51,7 @@
   width: 190px;
   /* overflow: hidden; */
 }
-.line {
+.lineSkills {
   background-color: white;
   height: 2px;
   width: 190px;
@@ -56,6 +61,8 @@
   color: white;
   margin-left: 48px;
   margin-right: 48px;
+  display: flex;
+  align-content: center;
 }
 
 .LogoHolderMain {
@@ -70,10 +77,12 @@
   column-gap: 80px;
   flex-wrap: wrap;
   width: 640px;
+  margin-bottom: 100px;
   /* background-color: #1e1e1e; */
 }
 
 .svgElement {
+  margin-top: 24px;
   width: 56px;
 }
 
@@ -85,6 +94,7 @@
 
 .CardHolder {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   column-gap: 0px;
   /* background-color: #44acac; */
@@ -92,7 +102,7 @@
 }
 
 .SkillsCard {
-  margin-top: 160px;
+  margin-top: 32px;
   background-color: #394343;
   box-shadow: 0px 16px #2b3030;
   border-radius: 16px 16px 0px 0px;
@@ -115,4 +125,191 @@
   justify-content: center;
   color: white;
   margin-bottom: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+  .ChildTextHolderSkills {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 96px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* line-height: 20%; */
+    /* background-color: red; */
+  }
+  .ChildTextSkills {
+    display: inline-block;
+    font-size: 48px;
+  }
+  .ChildText2HolderSkills {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ChildText2 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  .HeadingHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #8d2121; */
+    height: 160px;
+    margin-bottom: 80px;
+  }
+
+  .Heading {
+    font-size: 96px;
+    color: white;
+    margin-left: 48px;
+    margin-right: 48px;
+    display: flex;
+    align-content: center;
+  }
+
+  .lineSkills {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 160px;
+  }
+  .HolderTry {
+    /* background-color: green; */
+    display: flex;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .ChildTextHolderSkills {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* line-height: 20%; */
+    /* background-color: red; */
+  }
+  .ChildTextSkills {
+    display: inline-block;
+    font-size: 36px;
+  }
+  .ChildText2HolderSkills {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ChildText2 {
+    display: inline-block;
+    font-size: 36px;
+  }
+  .HeadingHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #8d2121; */
+    height: 160px;
+    margin-bottom: 80px;
+  }
+
+  .Heading {
+    font-size: 96px;
+    color: white;
+    margin-left: 48px;
+    margin-right: 48px;
+    display: flex;
+    align-content: center;
+  }
+
+  .lineSkills {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 100px;
+  }
+  .HolderTry {
+    /* background-color: green; */
+    display: flex;
+    align-content: center;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ChildTextHolderSkills {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* grid-template-rows: 1fr; */
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 96px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* line-height: 20%; */
+    /* background-color: red; */
+  }
+  .ChildTextSkills {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .ChildText2HolderSkills {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ChildText2 {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .HeadingHolder {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* background-color: #8d2121; */
+    height: 160px;
+    margin-bottom: 80px;
+  }
+
+  .Heading {
+    font-size: 96px;
+    color: white;
+    margin-left: 48px;
+    margin-right: 48px;
+    display: flex;
+    /* background-color: yellow; */
+    align-items: center;
+  }
+
+  .lineSkills {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 80px;
+  }
+
+  .HolderTry {
+    padding-bottom: 32px;
+  }
 }

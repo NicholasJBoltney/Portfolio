@@ -34,12 +34,12 @@ export default function Skills() {
         animate={mainControls}
         transition={{ duration: 1 }}
       >
-        <div className="line"></div>
+        <div className="lineSkills"></div>
 
         <div className="Heading">
           <FlipText>SKILLS</FlipText>
         </div>
-        <div className="line"></div>
+        <div className="lineSkills"></div>
       </motion.div>
 
       <div className="LogoHolderMain">
@@ -99,7 +99,7 @@ const STAGGER = 0.025;
 
 const FlipText = ({ children }) => {
   return (
-    <div>
+    <div className="HolderTry">
       <motion.p
         initial="initial"
         whileHover="hovered"

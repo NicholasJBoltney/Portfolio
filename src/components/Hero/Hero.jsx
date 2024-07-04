@@ -43,9 +43,9 @@ export default function Hero() {
 
   return (
     <div className="MainHeroHolder">
-      <div className="LightHolder">
+      {/* <div className="LightHolder">
         <img className="Light" src={Light} />
-      </div>
+      </div> */}
 
       <div className="TitleHolder">
         <div className="NameHolder">

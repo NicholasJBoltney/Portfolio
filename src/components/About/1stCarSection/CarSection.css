@@ -16,3 +16,38 @@
   top: 120px;
   right: 32px;
 }
+@media screen and (max-width: 1000px) {
+  .Smoke {
+    width: 800px;
+  }
+  .Car {
+    width: 200px;
+    position: relative;
+    top: 120px;
+    right: 32px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .Smoke {
+    width: 800px;
+  }
+  .Car {
+    width: 200px;
+    position: relative;
+    top: 120px;
+    right: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Smoke {
+    width: 533px;
+  }
+  .Car {
+    width: 133px;
+    position: relative;
+    top: 120px;
+    right: 32px;
+  }
+}

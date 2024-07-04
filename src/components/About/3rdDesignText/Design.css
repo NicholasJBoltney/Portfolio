@@ -14,7 +14,7 @@
   font-size: 56px;
   display: flex;
   justify-content: center;
-  padding-top: 400px;
+  /* padding-top: 400px; */
   /* margin: 10px; */
 }
 
@@ -43,4 +43,81 @@
 
 .ChildText2 {
   display: inline-block;
+}
+
+.EndingHolder {
+  margin-top: 320px;
+}
+
+@media screen and (max-width: 1000px) {
+  .ChildTextHolder {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 72px;
+    color: white;
+    line-height: 85%;
+  }
+  .DesignTextFinal {
+    /* width: auto; */
+    color: #ffffff;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 400px; */
+    /* margin: 10px; */
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .ChildTextHolder {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 56px;
+    color: white;
+    line-height: 85%;
+  }
+  .DesignTextFinal {
+    /* width: auto; */
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 400px; */
+    /* margin: 10px; */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ChildTextHolder {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    line-height: 85%;
+  }
+  .DesignTextFinal {
+    /* width: auto; */
+    color: #ffffff;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 400px; */
+    /* background-color: red; */
+    /* margin: 10px; */
+  }
+  .EndingHolder {
+    margin-top: 240px;
+  }
 }

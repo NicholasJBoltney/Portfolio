@@ -83,7 +83,7 @@ const STAGGER = 0.025;
 
 const FlipText = ({ children }) => {
   return (
-    <div>
+    <div className="HolderTry">
       <motion.p
         initial="initial"
         whileHover="hovered"

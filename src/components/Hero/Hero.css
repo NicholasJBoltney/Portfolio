@@ -18,6 +18,8 @@
 }
 
 .Holders {
+  /* overflow: hidden;
+  background-color: blue; */
 }
 
 .LeftFront,
@@ -48,6 +50,7 @@
 .FEDHolder {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .FED {
   position: absolute;
@@ -89,4 +92,53 @@
 
 .ChildText2Hero {
   display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .MainHeroHolder {
+    /* background-color: lightgreen; */
+  }
+
+  .Name {
+    font-size: 24px;
+  }
+
+  .FED {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .MainHeroHolder {
+    /* background-color: rgb(200, 99, 209); */
+  }
+
+  .Name {
+    font-size: 24px;
+  }
+
+  .FED {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .MainHeroHolder {
+    /* background-color: rgb(62, 34, 65); */
+  }
+
+  .Name {
+    font-size: 16px;
+  }
+  .FEDHolder {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    margin: auto;
+    width: 100%;
+  }
+
+  .FED {
+    font-size: 36px;
+  }
 }
