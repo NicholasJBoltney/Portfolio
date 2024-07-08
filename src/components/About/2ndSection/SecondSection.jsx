@@ -34,7 +34,8 @@ export default function SecondSection() {
         className="TextHolder"
       >
         <p className="TextSecondS">with a background in</p>
-        <FlipTextt First="web" Last="game" />
+        <p className="TextSecondS">web and game</p>
+        {/* <FlipTextt First="web" Last="game" /> */}
         <p className="TextSecondS">development</p>
       </motion.div>
 

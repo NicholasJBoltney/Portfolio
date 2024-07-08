@@ -54,7 +54,12 @@ export default function Projects() {
             transition={{ duration: 0.1 }}
           >
             <h3 className="ProjectsCardHeading">Clothing Store</h3>
-            <div className="ProjectDescription"></div>
+            <div className="ProjectDescription">
+              <p>
+                Clothing Store created to experiment with new development
+                concepts.
+              </p>
+            </div>
           </motion.div>
 
           <motion.div
@@ -70,7 +75,12 @@ export default function Projects() {
             }}
           >
             <h3 className="ProjectsCardHeading">Game Development</h3>
-            <div className="ProjectDescription"></div>
+            <div className="ProjectDescription">
+              <p>
+                Worked on various single and multiplayer game concepts in 2D and
+                3D.
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>
